@@ -1,0 +1,46 @@
+.topo {
+    background-color: #1b3675;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    width: 100vw;
+}
+
+.topo-conteudo {
+    max-width: 1024px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    margin: 0 auto;
+}
+
+.topo-logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.topo-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.topo-nome-empresa {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.topo-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 15px 10px 15px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+.topo-link:hover {
+    text-decoration: underline;
+}
+
