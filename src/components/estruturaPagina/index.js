@@ -7,7 +7,7 @@ function EstruturaPagina(props){  // props = propiedades
         <section>
             <Topo></Topo>
                 { props.children }
-            <rodape></rodape>
+            <Rodape></Rodape>
         </section>
     )
 } export default EstruturaPagina

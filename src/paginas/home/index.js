@@ -62,7 +62,7 @@ function Home() {""
 
                 <ul className="img-aparelho">
                     <li>
-                        <img className="img-aparelho" src="img/cleinte01.png" alt="depoimento do cliente 1"></img>
+                        <img className="img-aparelho" src="img/cleinte01.png" alt="depoimento do cliente 1"></img>             
                         <p>Alberto Silva</p>
                         <p>..."Usei aparelho por anos e agora posso sorrir novamente"...</p>
                     </li>
