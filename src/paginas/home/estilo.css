@@ -1,0 +1,110 @@
+.home-apresentacao{
+    background-color: #1b3675;
+    padding: 20px 0px;
+    padding-top: 100px;
+}
+
+.limitar-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.limitar-container h1{
+    margin: 0;
+    color: #fdb203;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.limitar-container p{
+    /* color: #fff; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.lista-servicos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-servicos li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.lista-servicos li p{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.lista-servicos li img{
+    object-fit: contain;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.img-aparelho{
+    width: 100%;
+    max-width: 700px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.lista-sobre-aparelho{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-sobre-aparelho li{
+    padding: 0 15px;
+    list-style: none;
+    text-align: start;
+    flex: 1;
+}
+
+.home-depoimentos{
+    margin-top: 60px;
+}
+
+.lista-depoimentos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.lista-depoimentos li{
+    list-style: none;
+    max-width: 300px;
+    padding: 10px 20px;
+}
+
+.lista-depoimentos li img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.btn-contato{
+    border: 1px solid #1b3675;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #1b3675;
+    color: #fff;
+}
+
+.btn-contato:hover{
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.1);
+}

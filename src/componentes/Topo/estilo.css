@@ -1,0 +1,67 @@
+.topo{
+    background-color: #1b3675;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #fff;
+}
+
+.conteudo-topo{
+    max-width: 1024px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.topo-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.topo-links img{
+    width: 30px;
+    height: 30px;
+}
+
+.topo-links h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.topo-link {
+    color: #fff;
+    text-decoration: none;  
+    font-size: 20px; 
+}
+
+.topo-link:hover, .topo-links h1:hover{
+    color: yellow;  
+}
+
+/*---Responsivo---*/
+
+@media screen and (max-width: 350px) {
+    .conteudo-topo{
+        flex-direction: column;
+        gap: 5px;
+        height: 70px;
+        margin-bottom: 5px;
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .conteudo-topo{
+        flex-direction: column;
+        gap: 5px;
+        height: 70px;
+        margin-bottom: 5px;
+        padding: 10px 10px;
+    }
+}
