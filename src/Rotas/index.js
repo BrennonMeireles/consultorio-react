@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home    from '../paginas/Home';
-import Contato from '../paginas/Contato';
+import Home    from '../paginas/home';
+import Contato from '../paginas/contato';
 
 function Rotas(){
     return(
